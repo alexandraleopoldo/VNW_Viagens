@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semântica HTML</title>
+  </head>
+  <body>
+    <!-- cabeçalho da página -->
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a
+              href="https://turismodenatureza.com.br/melhores-praias-do-espirito-santo/"
+              target="_blank"
+              >Faça sua Reserva</a
+            >
+          </li>
+          <li><a href="">Redes Socias</a></li>
+          <li><a href="">Saiba mais</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- conteúdo principal do site -->
+    <main>
+      <section>
+        <h1>Viagens Vai na Web</h1>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/87YH3deg_vo?si=ls3D9NxeMsRHBvUp"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <!-- seção de tipos de viagens -->
+      <section>
+        <!-- a (div) dve ser usada com sabedoria, ela é usada para divisões pois não tem valor semântico -->
+        <div>
+          <h2>Viagens Internacionais</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et recusandae quasi iste, repellendus sequi blanditiis earum. Quos laborum, inventore minus a quidem temporibus. Corporis illum provident nulla totam ullam repellendus id numquam itaque recusandae sapiente. Ipsum sed expedita vel sint. Corrupti quos officia ex fuga ipsam molestias iusto. Laudantium autem laborum similique, eius ut rem ipsa iste consequuntur voluptas nisi quo deleniti ducimus delectus quibusdam nostrum pariatur ex placeat itaque ad architecto magni, assumenda aut! Minus tempora quos eius nam iusto dicta veniam ad in sed vero beatae officia nesciunt facere esse id, dolore laudantium modi placeat excepturi. Aliquam, iste.</p>
+        </div>
+        <div>
+            <h2>Viagens Nacionais</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure autem provident pariatur mollitia atque expedita accusantium ex culpa, illum illo commodi totam perspiciatis at possimus perferendis natus ad blanditiis ab nobis quaerat nisi doloribus nihil! Expedita, repellat! Minima minus odio, debitis, eos nisi ipsa iste laboriosam neque vel voluptate excepturi.</p>
+        </div>
+    </section>
+    <!-- seção do formulario -->
+     <section>
+        <h2>Se inscreva para receber novidades</h2>
+        <!-- fieldset(não é obrigatório, mas dá um estilo legal) é a tag usada para agrupar um formulário -->
+        <fieldset>
+           <legend>Formulário de Cadastro</legend>
+           <!-- <form action="">
+            <label for="nome">Nome:</label>  o for serve para conectar ao input (id) 
+            <input type="text" id="nome" placeholder="Digite seu nome">
+            <label for="email">Email:</label>
+            <input type="email" name="" id="email" placeholder="Digite seu melhor email">
+            </form> -->
+            <form action="">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" placeholder="Digite seu nome aqui" required>
+              <label for="email">E-mail</label>
+              <input type="email" id="email" placeholder="Digite seu email aqui" required>
+              <input type="submit">
+
+
+
+            </form>
+        </fieldset>
+     </section>
+
+
+
+
+
+
+
+
+     <section>
+      <p>
+        texto correto <s>texto incorreto</s><br><p>Texto subescrito: <sub>subescrito</sub></p><p>Texto menor:</p><small>texto menor</small>
+      </p>
+      <p>Texto sublinhado: <u>sublinhado</u></p>
+      
+     </section>
+    </main>
+    <!-- rodapé do site "parte final" -->
+    <footer></footer>
+  </body>
+</htm
